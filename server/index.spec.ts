@@ -7,7 +7,7 @@ import { AvailableLanguageCode } from '../shared/i18n/availableLanguages'
 
 const chance = new Chance()
 
-const baseUrl = 'http://localhost:8008'
+const baseUrl = 'coup-online-one.vercel.app'
 
 const validatePublicState = (gameState: DehydratedPublicGameState) => {
   expect(Object.keys(gameState)).toEqual(expect.arrayContaining([
